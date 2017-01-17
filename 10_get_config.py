@@ -1,5 +1,5 @@
-from jnpr.junos import Device
-from lxml import etree
+!from jnpr.junos import Device
+!from lxml import etree
 
 dev = Device(host='xxxx', user='demo', password='demo123', gather_facts=False)
 dev.open()
